@@ -25,3 +25,4 @@ Actions sono gratuite e illimitate.
   c'è margine sufficiente.
 - GitHub disattiva i workflow schedulati dopo 60 giorni senza attività nel
   repository: basta un commit (o riattivarlo da Actions) per ripartire.
+
