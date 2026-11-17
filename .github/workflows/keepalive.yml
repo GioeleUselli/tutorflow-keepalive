@@ -2,8 +2,8 @@ name: Keep TutorFlow awake
 
 on:
   schedule:
-    # Ogni 5 minuti. GitHub può ritardare di qualche minuto nei momenti di carico.
-    - cron: '*/5 * * * *'
+    # Ogni 5 minuti, sfasato rispetto all'ora piena (momento di picco di GitHub).
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
 
 permissions:
